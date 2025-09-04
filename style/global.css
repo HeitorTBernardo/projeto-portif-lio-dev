@@ -21,16 +21,25 @@
   --gray-600: #0D0E11;
 
   /* tipografia */
-  --font-family-title: "Asap", sans-serif;
-  --font-family-subtitle: "Inconsolata", monospace;
-  --font-family-text: "Maven Pro", sans-serif;
+  --font-family-asap: "Asap", sans-serif;
+  --font-family-inconsolata: "Inconsolata", monospace;
+  --font-family-maven: "Maven Pro", sans-serif;
 
-  --h1: 800 56px/120% var(--font-family-title); 
-  --h2: 800 24px/120% var(--font-family-title);
-  --h1: 800 16px/120% var(--font-family-title);
+  --h1: 600 56px/120% var(--font-family-asap); 
+  --h2: 600 24px/120% var(--font-family-asap);
+  --h3: 600 16px/120% var(--font-family-asap);
 
-  --subtitle: 400 20px/120% var(--font-family-subtitle);
+  --subtitle: 400 20px/120% var(--font-family-inconsolata);
 
-  --text-md: 400 16px/140% var(--font-family-text);
-  --text-md: 400 14px/140% var(--font-family-text);
+  --text-md: 400 16px/140% var(--font-family-maven);
+  --text-sm: 400 14px/140% var(--font-family-maven);
+}
+
+body {
+  font: var(--text-md);
+  color: var(--gray-200);
+}
+
+h1, h2, h3, p {
+  font: inherit;
 }
