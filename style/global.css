@@ -43,3 +43,25 @@ body {
 h1, h2, h3, p {
   font: inherit;
 }
+
+main {
+  padding-block: 72px 144px;
+  padding-inline: 120px;
+  background-color: var(--gray-500);
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.titles {
+  margin-bottom: 56px;
+  
+  & > h3 {
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+}

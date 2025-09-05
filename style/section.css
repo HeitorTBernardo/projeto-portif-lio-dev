@@ -1,0 +1,26 @@
+#projects {
+  width: 1040px;
+  padding-bottom: 120px;
+}
+
+.card {
+  background-color: var(--gray-400);
+  border: 1px solid var(--gray-400);
+  border-radius: 12px;
+  padding: 10px;
+
+  &:hover {
+    border: 1px solid var(--gray-300);
+  }
+
+  img {
+    height: 156px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+
+  figcaption {
+    text-align: left;
+    padding: 5px;
+  }
+}
