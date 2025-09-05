@@ -7,42 +7,42 @@
 }
 
 .gap-24 {
-    gap:24px;
+  gap:24px;
 }
 
 .column-gap-24 {
-    column-gap: 24px;
+  column-gap: 24px;
 }
 
 .grid-cols-3 {
-    grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 
 .justify-content-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .text-2xl {
-    font: var(--h1);
+  font: var(--h1);
 }
 
 .text-xl {
-    font: var(--h2);
+  font: var(--h2);
 }
 
 .text-lg {
-    font: var(--h3);
+  font: var(--h3);
 }
 
 .text-md {
-    font: var(--text-md);
+  font: var(--text-md);
 }
 
 .text-sm {
-    font: var(--text-sm);
+  font: var(--text-sm);
 }
 
 .text-subtitle {
-    font: var(--subtitle);
+  font: var(--subtitle);
 }
