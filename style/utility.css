@@ -6,6 +6,19 @@
   display: flex;
 }
 
+.gap-24 {
+    gap:24px;
+}
+
+.column-gap-24 {
+    column-gap: 24px;
+}
+
+.grid-cols-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 .justify-content-center {
     justify-content: center;
 }
